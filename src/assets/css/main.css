@@ -1,0 +1,58 @@
+@import './base.css';
+
+.no-select {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.no-drag {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
+
+/* Text */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  -o-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
+}
+
+/* Cursor */
+.cursor-point {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+  .cursor-point {
+    cursor: default;
+  }
+}
+
+.cursor-def {
+  cursor: default;
+}
+
+.no-cursor {
+  pointer-events: none;
+}
