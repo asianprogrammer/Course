@@ -6,7 +6,7 @@ export const useCourses = defineStore('course', {
             {
                 title: "How to grow your Facebook Page",
                 steps: 12,
-                progress: 6,
+                progress: 6.36,
                 status: 'Enrolled',
                 bg: '--blue',
                 color: '--background',
@@ -22,7 +22,7 @@ export const useCourses = defineStore('course', {
                 image: 'src/assets/image/course/GP.png'
             },
             {
-                title: "How to grow your Facebook Page",
+                title: "Data science Bootcamp",
                 steps: 17,
                 progress: 15,
                 status: 'Full',
@@ -31,7 +31,7 @@ export const useCourses = defineStore('course', {
                 image: 'src/assets/image/course/DS.png'
             },
             {
-                title: "How to grow your Facebook Page",
+                title: "Target Audience Training",
                 steps: 21,
                 progress: 20,
                 status: 'Full',
