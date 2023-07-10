@@ -30,12 +30,41 @@
   text-align: right;
 }
 
+.font-bold {
+  font-weight: 500;
+}
+
 /* Flex */
 .flex {
   display: flex;
   -o-display: flex;
   -moz-display: flex;
   -webkit-display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-y-center {
+  align-items: center;
+}
+
+.flex-x-between {
+  justify-content: space-between;
+}
+
+.T-gray {
+  color: var(--gray);
+}
+
+.T-disable {
+  color: var(--text-gray);
+}
+
+.FW-400 {
+  font-weight: 400;
 }
 
 /* Cursor */
@@ -55,4 +84,56 @@
 
 .no-cursor {
   pointer-events: none;
+}
+
+/* Image */
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.image-w {
+  width: 100%;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+/* Background */
+.BG-blue {
+  background: var(--blue);
+}
+
+/* Svg */
+.stroke-white svg path {
+  stroke: #fff;
+}
+
+.stroke-line-white svg line {
+  stroke: #fff;
+}
+
+/* Icons */
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+
+/* Margin */
+.ML-10px {
+  margin-left: 10px;
+}
+
+/* List */
+.list {
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
+.list:hover {
+  color: var(--blue);
 }
