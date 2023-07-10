@@ -55,6 +55,10 @@
   justify-content: space-between;
 }
 
+.flex-y-down {
+  flex-direction: column;
+}
+
 .T-gray {
   color: var(--gray);
 }
@@ -72,7 +76,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .cursor-point {
     cursor: default;
   }
@@ -93,6 +97,17 @@
 }
 
 .image-w {
+  width: 100%;
+}
+
+.profile {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile img {
   width: 100%;
 }
 
@@ -126,6 +141,10 @@
 /* Margin */
 .ML-10px {
   margin-left: 10px;
+}
+
+.ML-40px {
+  margin-left: 40px;
 }
 
 /* List */
