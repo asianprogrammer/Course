@@ -1,5 +1,6 @@
 <script setup>
-import { defineProps, watch, watchEffect } from 'vue'
+import per from "../utils/math.js";
+import { defineProps } from 'vue'
 const props = defineProps(['info'])
 const infos = props.info
 </script>
@@ -40,7 +41,7 @@ const infos = props.info
 
       <section class="progress-container flex flex-y-center flex-x-between">
         <div class="progress">
-          <div class="progress-bg" :style="`width: ${(info.progress * 100) / info.steps}%;`"></div>
+          <div class="progress-bg" :style="`width: ${per(info.progress, info.steps)}%;`"></div>
         </div>
         <div class="flex flex-center no-select cursor-point">
           <h3>Enroll &nbsp; ⇀</h3>
