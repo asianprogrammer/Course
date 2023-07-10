@@ -33,3 +33,13 @@ body {
     Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica;
   font-size: 15px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  margin: 0 400px;
+  background: rgba(113, 114, 134, 0.082);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(133, 137, 156, 0.123);
+}
