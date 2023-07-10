@@ -1,3 +1,10 @@
+<script setup>
+import NavBar from "./components/NaveBar.vue";
+import Performance from "./components/Performance.vue";
+</script>
 <template>
-    <h1 class="cursor-point">Hello World</h1>
+    <section>
+        <NavBar />
+        <Performance />
+    </section>
 </template>
